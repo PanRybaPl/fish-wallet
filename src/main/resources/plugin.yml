@@ -1,0 +1,9 @@
+name: Portfel
+version: 0.1
+main: pl.panryba.mc.wallet.Plugin
+database: true
+depend: [FishDb]
+commands:
+    portfel:
+      description: Sprawdzenie stanu portfela
+      usage: /<command> [<nick gracza>]
